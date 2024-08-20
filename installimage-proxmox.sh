@@ -461,7 +461,7 @@ if [ "$OS" == "PBS" ] ; then
   postinstall_file="/root/pbs"
 else
   if [ ! -f postinstall_file="/root/pve" ] ; then
-    wget "https://raw.githubusercontent.com/extremeshok/xshok-proxmox/master/hetzner/pve" -c -O /root/pve
+    wget "https://raw.githubusercontent.com/Deathgrint/Hetzner-Server/main/pve" -c -O /root/pve
   fi
   postinstall_file="/root/pve"
 fi
